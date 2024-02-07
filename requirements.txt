@@ -1,2 +1,4 @@
 pandas
 openpyxl
+python-docx
+aspose-words
