@@ -13,7 +13,7 @@ st.title("Buse Naming App")
 data = st.file_uploader("Upload the excel file", type=["xlsx", "xls"], accept_multiple_files=False)
 # cols = [] if not data else pd.read_excel(data).columns
 # index_col = st.selectbox("Select the index column", options=cols) # type: ignore
-imgs = st.file_uploader("Upload an images", type=["jpg", "jpeg", "png"], accept_multiple_files=True)
+imgs = st.file_uploader("Upload images", type=["jpg", "jpeg", "png"], accept_multiple_files=True)
 
 
 def get_data(selected):
