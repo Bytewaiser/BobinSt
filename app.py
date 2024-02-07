@@ -3,11 +3,12 @@ import pandas as pd
 from PIL import Image
 
 
-st.title("Buse Naming App")
-
 st.set_page_config(
         page_title="Buse Naming App",
 )
+
+st.title("Buse Naming App")
+
 
 data = st.file_uploader("Upload the excel file", type=["xlsx", "xls"], accept_multiple_files=False)
 # cols = [] if not data else pd.read_excel(data).columns
